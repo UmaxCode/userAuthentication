@@ -1,0 +1,39 @@
+# Ignore virtual environment directory
+venv/
+
+# Ignore Django migrations files
+*/migrations/
+
+
+# Ignore compiled Python files and cache
+*.pyc
+__pycache__/
+
+# Ignore SQLite database file
+db.sqlite3
+
+# Ignore IDE or editor specific files and directories
+.idea/
+.vscode/
+
+# Ignore local settings file
+/path/to/your/local_settings.py
+
+# Ignore logs and temporary files
+*.log
+*.bak
+
+# Ignore static and media files
+/static/
+/media/
+
+# Ignore compiled assets or build directories
+/assets/
+/build/
+
+# Ignore secret keys, credentials, or sensitive information
+.env
+
+# Ignore dependency-related files
+Pipfile.lock
+poetry.lock
